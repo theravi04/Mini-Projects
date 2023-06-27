@@ -1,0 +1,190 @@
+body {
+  text-align: center;
+  font-family: "Satisfy", cursive;
+}
+h1{
+  margin-top: 7%;
+  font-size: 5em;
+  background: -webkit-linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+div{
+  font-size: 1.1em;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10%;
+}
+.third{
+  /* margin-left: 15%; */
+  margin-right: 15%;
+  /* background-color: aqua; */
+}
+div .profile {
+  width: 75%;
+  height: auto;
+}
+div .drum {
+  width: 40%;
+  height: auto;
+}
+div .dice {
+  width: 140%;
+  height: auto;
+}
+div #three{
+  margin-left: 50%;
+}
+div .location {
+  width: 65%;
+  height: auto;
+}
+p{
+  background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1124px) {
+  h1{
+    font-size: 5em;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .first, .second, .third, .fourth{
+    align-items: center;
+    text-align: center;
+  }
+  div .profile {
+    width: 35%;
+    height: auto;
+    margin-right: 5%;
+  }
+  div #one{
+    margin-right: 5%;
+  }
+  div .drum {
+    width: 25%;
+    height: auto;
+    margin-right: 2%;
+  }
+  div #two{
+    margin-right: 2%;
+  }
+  div .dice {
+    width: 80%;
+    height: auto;
+    margin-left: 45%;
+  }
+  div #three{
+    margin-right: -25%;
+  }
+  div .location {
+    width: 35%;
+    height: auto;
+    margin-right: 1%;
+  }
+  div #four{
+    margin-left: 1%;
+  }
+}
+
+/* @media (max-width: 375px) {
+  h1{
+    font-size: 3em;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .first, .second, .third, .fourth{
+    align-items: center;
+    text-align: center;
+  }
+  div .profile {
+    width: 35%;
+    height: auto;
+    margin-right: 5%;
+  }
+  div #one{
+    margin-right: 5%;
+  }
+  div .drum {
+    width: 35%;
+    height: auto;
+    margin-right: 4%;
+  }
+  div #two{
+    margin-right: 4%;
+  }
+  div .dice {
+    width: 45%;
+    height: auto;
+    margin-right: 15%;
+  }
+  div #three{
+    margin-right: 775%;
+  }
+  div .location {
+    width: 30%;
+    height: auto;
+    margin-right: 5%;
+  }
+  div #four{
+    margin-right: 2%;
+  }
+} */
+
+/* @media (max-width: 500px){
+  h1{
+    font-size: 3em;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .first, .second, .third, .fourth{
+    align-items: center;
+    text-align: center;
+  }
+  div .profile {
+    width: 35%;
+    height: auto;
+    margin-right: 5%;
+  }
+  div #one{
+    margin-right: 5%;
+  }
+  div .drum {
+    width: 35%;
+    height: auto;
+    margin-right: 4%;
+  }
+  div #two{
+    margin-right: 4%;
+  }
+  div .dice {
+    width: 45%;
+    height: auto;
+    margin-left: 15%;
+  }
+  div #three{
+    margin-left: -5%;
+  }
+  div .location {
+    width: 30%;
+    height: auto;
+    margin-right: 5%;
+  }
+  div #four{
+    margin-right: 2%;
+  }
+} */

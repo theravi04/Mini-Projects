@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Location</title>
+    <style>
+      body {
+        font-size: 20px;
+        text-align: center;
+      }
+    </style>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  </head>
+  <body>
+    <h1>Get your Exact Location</h1>
+
+    <button onclick="getLocation()">Find Me</button>
+
+    <p id="demo"></p>
+
+    <script>
+      var x = document.getElementById("demo");
+
+      function getLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+          x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+      }
+
+      function showPosition(position) {
+        x.innerHTML =
+          "Latitude: " +
+          position.coords.latitude +
+          "<br>Longitude: " +
+          position.coords.longitude;
+      }
+    </script>
+  </body>
+</html>
